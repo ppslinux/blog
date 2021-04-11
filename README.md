@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# hugo-lamp
 
-You can use the [editor on GitHub](https://github.com/ppslinux/blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A light responsive [Hugo](https://gohugo.io/) [⚡ AMP](https://www.ampproject.org/) theme for blogger.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![hugo-lamp](/images/screenshot.png)
 
-### Markdown
+## Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Go to the directory where you have your Hugo site and run:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/huyb1991/hugo-lamp
+$ rm -rf hugo-lamp/.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.*
 
-### Jekyll Themes
+## Guides
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ppslinux/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Content Editing
+  - [Add image to article](/docs/guide.md#add-image-to-article-content)
+  - [Content config for SEO](/docs/guide.md#content-config-for-seo)
+  - [Add icon](/docs/guide.md#add-icon)
+  - [Customize Theme](/docs/guide.md#customize-theme)
 
-### Support or Contact
+#### Site Configuration
+  - [Site Info](/docs/guide.md#site-info)
+  - [Main Menu](/docs/guide.md#main-menu)
+  - [Taxonomies](/docs/guide.md#taxonomies)
+  - [SEO](/docs/guide.md#seo)
+  - [Publisher](/docs/guide.md#publisher)
+  - [Social Networks & Connections](/docs/guide.md#social-networks--connections)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contributing
+
+If you found a bug or got an idea for a new feature feel free to add a new [issues](https://github.com/huyb1991/hugo-lamp/issues).
+
+## Thanks
+- [gohugo-amp](https://gohugo-amp.gohugohq.com/styling/) for the build tool
+- [hugo-nuo](https://themes.gohugo.io/hugo-nuo/) for the template
+
+Thanks to [Steve Francia](https://github.com/spf13) for creating [Hugo](https://gohugo.io/) and the awesome community around the project.
